@@ -1,0 +1,42 @@
+<resources>
+
+    <string name="app_name">BoaViagem</string>
+    <string name="usuario">Usuário</string>
+    <string name="senha">Senha</string>
+    <string name="entrar">Entrar</string>
+    <string name="erro_autenticacao">Erro de Autenticação</string>
+    <string name="novo_gasto">Novo Gasto</string>
+    <string name="nova_viagem">Nova Viagem</string>
+    <string name="minhas_viagens">Minhas Viagens</string>
+    <string name="configuracoes">Configurações</string>
+    <string name="categoria">Categorias</string>
+    <string name="sair">Sair</string>
+    <string name="remover_viagem">Remover Viagem</string>
+    <string name="remover_gasto">Remover Gasto</string>
+    <string name="remover">Remover</string>
+    <string name="editar">Editar</string>
+    <string name="gastos_realizados">Gastos Realizados</string>
+    <string name="opcoes">Opções</string>
+    <string name="confirmacao_exclusao_viagem">Deseja realmente excluir essa viagem?</string>
+    <string name="sim">Sim</string>
+    <string name="nao">Não</string>
+    <string name="preferencias">Preferências</string>
+    <string name="modo_viagem_sumario">Determina a viagem ativa com base na data atual</string>
+    <string name="modo_viagem">Modo de viagem</string>
+    <string name="informe_valor_limite">Informe o valor limite</string>
+    <string name="valor_limite_sumario">Notifica quando os gastos ultrapassarem o porcentual informado</string>
+    <string name="valor_limite">Alerta de Gastos</string>
+    <string name="manter_conectado">Mantenha-me Conectado</string>
+    <string name="registro_salvo">Registro salvo com sucesso!</string>
+    <string name="erro_salvar">Erro ao salvar registro..</string>
+
+
+    <string-array name="categoria_gasto">
+        <item>Alimentação</item>
+        <item>Combustível</item>
+        <item>Transporte</item>
+        <item>Hospedagem</item>
+        <item>Outros</item>
+    </string-array>
+
+</resources>

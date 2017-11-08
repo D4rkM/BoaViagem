@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/novo_gasto"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="80dp"
+        android:clickable="true"
+
+        android:onClick="selecionarOpcao"
+        android:text="@string/novo_gasto"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/nova_viagem"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/novo_gasto"
+        android:layout_marginRight="50dp"
+        android:clickable="true"
+
+        android:text="@string/nova_viagem"
+        android:onClick="selecionarOpcao"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/minhas_viagens"
+        android:layout_alignLeft="@+id/novo_gasto"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="120dp"
+        android:clickable="true"
+
+        android:onClick="selecionarOpcao"
+        android:text="@string/minhas_viagens"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/configuracoes"
+        android:layout_alignBottom="@+id/minhas_viagens"
+        android:layout_alignRight="@+id/nova_viagem"
+        android:clickable="true"
+
+        android:onClick="selecionarOpcao"
+        android:text="@string/configuracoes"
+        android:textStyle="bold"/>
+</RelativeLayout>
+
